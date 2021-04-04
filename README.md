@@ -6,6 +6,8 @@
 - [ ] Tema: Jogo da Vaquinha (Adivinhe a palavra)
 - [ ] Javascript | HTML | CSS
 
+Jogar: 👉 [jogo da vaquinha](https://graficoeweb.com.br/jogo-da-vaquinha/) 
+
 ![Game Interface](https://graficoeweb.com.br/jogo-da-vaquinha/images/jogo-da-vaca.jpg)
 
 
