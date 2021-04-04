@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - ALURA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+        <img class="logo" src="https://graficoeweb.com.br/images/codepen/logo.png" alt="Jogo da Vaquinha">
+        <h1 class="page-title">
+            Jogo da vaquinha
+        </h1>
+        
+        <p class="page-subtitle">
+            Qual é a palavra secreta?
+        </p>
+    </header>
+
+    <article id="dvJogador" class="main">
+        <p>Descubra a palavra secreta</p>
+        <label for="">Digite uma letra no quadro e clique em jogar</label>
+        <div id="controlesJogador">
+            <input type="text" id="letraJ" maxlength="1" placeholder="Digite Aqui" />
+
+            <button class="enviarBtn" onClick="jogar()">Jogar</button>
+            <button class="dicaBtn" onClick="dica()">Dica</button>
+        </div>
+    </article>
+
+    <aside class="aside aside1">
+    
+    <img id="img" src="https://graficoeweb.com.br/images/codepen/img1.png" alt="">
+
+    <h1 class="page-title">Revela a palavra</h1>
+
+    <div id="dvpalavra">
+        <input type="text" id="letra0" class="letra" maxlength="1">
+        <input type="text" id="letra1" class="letra" maxlength="1">
+        <input type="text" id="letra2" class="letra" maxlength="1">
+        <input type="text" id="letra3" class="letra" maxlength="1">
+        <input type="text" id="letra4" class="letra" maxlength="1">
+        <input type="text" id="letra5" class="letra" maxlength="1">
+        <input type="text" id="letra6" class="letra" maxlength="1">
+        <input type="text" id="letra7" class="letra" maxlength="1">
+        <input type="text" id="letra8" class="letra" maxlength="1">
+        <input type="text" id="letra9" class="letra" maxlength="1">
+        <input type="text" id="letra10" class="letra" maxlength="1">
+        <input type="text" id="letra11" class="letra" maxlength="1">
+        <input type="text" id="letra12" class="letra" maxlength="1">
+        <input type="text" id="letra13" class="letra" maxlength="1">
+        <input type="text" id="letra14" class="letra" maxlength="1">
+        <input type="text" id="letra15" class="letra" maxlength="1">
+        <input type="text" id="letra16" class="letra" maxlength="1">
+        <input type="text" id="letra17" class="letra" maxlength="1">
+        <input type="text" id="letra18" class="letra" maxlength="1">
+        <input type="text" id="letra19" class="letra" maxlength="1">
+    </div>
+
+    <div id="dvmenu">
+        <button class="btn-iniciar" onClick="inicia()">Nova palavra</button>
+    </div>
+
+    </aside>
+    <aside class="aside aside2">
+        <h1 class="page-title">Mensagens</h1>
+
+        <div id="dvmsg" class="resultado"></div>
+
+        <div id="dvCampoVazio" class="msg"></div>
+        
+        <div id="dvDica" class="msg"></div>
+
+        <div id="dvletrasdigitadas" class="page-subtitle"></div> 
+        
+        <img id="img-leite" alt="">
+
+        <div id="palavraSecreta" class="page-subtitle"></div>
+
+        <div id="codePen" class="msg"></div>
+        
+
+    </aside>
+
+    <footer class="footer">
+
+        <div>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="dev-logo"
+            alt="">
+        </div>
+
+        <div class="creditos">
+            <a href='https://github.com/pesdesigner' target="_blank">dev. @pesdesigner</a> |
+            <a href='https://br.freepik.com/catalyststuff' target="_blank">vector created by catalyststuff</a>
+        </div>
+
+        <div  class="alura-logo">
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="">
+            </a>
+        </div>
+
+    </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
